@@ -11,6 +11,7 @@ if (apparel === 'yes'){
  } else{
      greeting = 'That was an incorrect response'
  }
+ confirm('press a button');
 
 console.log('our response:', greeting);
 

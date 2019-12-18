@@ -25,8 +25,14 @@ function add(a, b){
     var b = parseInt(prompt('pick another number')); 
     console.log(a + b);
 }
+function apparelList(){
+var apparelItems = ['shirts', 'pants', 'shoes', 'hats', 'belts'];
 
-
+for (var i = 0; i < apparelItems.length; i++){
+    document.write(apparelItems[i]); 
+}
+}
 
 buildApp(prompt);
 add();
+apparelList();

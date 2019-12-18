@@ -1,7 +1,8 @@
-var apparel = prompt(' Do you like apparel? yes or no ');
+function buildApp() {
+    var apparel = prompt(' Do you like apparel? yes or no ');
 console.log('prompt question:', apparel);
 
-var apparel;
+
 
 if (apparel === 'yes'){
     greeting = 'Awesome, you came to the right place';
@@ -16,3 +17,16 @@ if (apparel === 'yes'){
 console.log('our response:', greeting);
 
  document.write(greeting);
+
+}
+
+function add(a, b){
+    var a = parseInt(prompt('pick a number'));
+    var b = parseInt(prompt('pick another number')); 
+    console.log(a + b);
+}
+
+
+
+buildApp(prompt);
+add();
